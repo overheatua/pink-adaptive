@@ -1,0 +1,43 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 30px;
+
+  @media #{$tablet} {
+    line-height: 24px;
+  }
+  @media #{$desktop} {
+    font-size: 18px;
+  }
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 300;
+
+  @media #{$tablet} {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  @media #{$desktop} {
+    font-size: 50px;
+    line-height: 57px;
+  }
+}
+
+h2 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+
+  @media #{$desktop} {
+    font-size: 30px;
+  }
+}

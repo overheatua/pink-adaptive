@@ -1,0 +1,49 @@
+@mixin container {
+  width: auto;
+  @media #{$tablet} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  @media #{$desktop} {
+    width: 1200px;
+  }
+}
+@mixin button {
+  font-family: OpenSans;
+  color: $button-text;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 55px;
+  background-color: transparent;
+  border: 3px solid $button-border;
+  border-radius: 10px;
+  outline: none;
+  transition: all ease 0.6s;
+
+  &:hover {
+    background-color: $button-bg-hover;
+    color: $button-text-hover;
+  }
+
+  &:active {
+    color: $button-text-active;
+  }
+}
+@mixin green-button {
+  font-family: OpenSans;
+  color: $green-button-text;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 65px;
+  text-transform: uppercase;
+  background-color: $green-button-bg;
+  border-radius: 1px;
+
+  &:hover {
+    background-color: $green-button-bg-hover;
+  }
+
+  &:active {
+    color: $green-button-text-active;
+  }
+}

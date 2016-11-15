@@ -1,0 +1,19 @@
+$font-family: "Open Sans", "Arial", sans-serif;
+$text-color: #283645;
+$bg-color: #ffffff;
+
+$button-text: #ffffff;
+$button-text-hover: #d22856;
+$button-text-active: rgba(#d22856, .3);
+$button-bg-hover: #ffffff;
+$button-border: #ffffff;
+
+$green-button-text: #ffffff;
+$green-button-bg: #2aab6d;
+$green-button-bg-hover: #1c9b5e;
+$green-button-text-active: rgba(#ffffff, .3);
+
+$mobile-only: "(max-width: 700px)";
+$tablet: "(min-width: 700px)";
+$desktop: "(min-width: 1200px)";
+$retina: "(min-resolution: 144dpi), (min-resolution: 1.5dppx)";
