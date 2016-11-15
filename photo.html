@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Фотографии пользователей</title>
+  <link href="css/style.min.css" rel="stylesheet">
+  <script src="js/picturefill.min.js"></script>
+</head>
+<body>
+  <main class="main">
+    <div class="intro">
+      <p class="intro__title-text">Фотографии пользователей</p>
+    </div>
+    <div class="catalog">
+      <div class="catalog-item">
+        <div class="catalog-item__img-wrapper">
+          <a href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/panorama-desktop.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
+              <source media="(min-width: 700px)" srcset="img/panorama-tablet.jpg 1x, img/photo-1-tablet@2x.jpg 2x">
+              <img class="catalog-item__img" src="img/panorama-mobile@1x.jpg" srcset="img/photo-1-mobile@2x.jpg 2x" alt="Панорама">
+            </picture>
+          </a>
+          <button class="catalog-item__btn">Панорама дня</button>
+        </div>
+        <div class="catalog-item__dscr">
+          <div class="catalog-item__author">
+            <a href="#" class="catalog-item__author-name">Анна <span class="catalog-item__time">(5 минут назад)</span></a>
+          </div>
+          <p class="catalog-item__text">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую транслацию в перископе, задавайте свои вопросы!</p>
+          <div class="catalog-item__footer">
+            <a href="#">
+              <img src="img/like.png" alt="heart" class="catalog-item__icon-like">
+            </a>
+            <a href="#" class="catalog-item__like">Нравится: 215</a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-item">
+        <div class="catalog-item__img-wrapper">
+          <a href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-1-desktop.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
+              <source media="(min-width: 700px)" srcset="img/photo-1-tablet.jpg 1x, img/photo-1-tablet@2x.jpg 2x">
+              <img class="catalog-item__img" src="img/photo-1-mobile@1x.jpg" srcset="img/photo-1-mobile@2x.jpg 2x" alt="авто">
+            </picture>
+          </a>
+        </div>
+        <div class="catalog-item__dscr">
+          <div class="catalog-item__author">
+            <a href="#" class="catalog-item__author-name">Левон <span class="catalog-item__time">(5 часов назад)</span></a>
+          </div>
+          <p class="catalog-item__text">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          <div class="catalog-item__footer">
+            <a href="#">
+              <img src="img/like.png" alt="heart" class="catalog-item__icon-like">
+            </a>
+            <a href="#" class="catalog-item__like">Нравится: 356</a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-item">
+        <div class="catalog-item__img-wrapper">
+          <a href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-2-desktop.jpg 1x, img/photo-2-desktop@2x.jpg 2x">
+              <source media="(min-width: 700px)" srcset="img/photo-2-tablet.jpg 1x, img/photo-2-tablet@2x.jpg 2x">
+              <img class="catalog-item__img" src="img/photo-2-mobile@1x.jpg" srcset="img/photo-2-mobile@2x.jpg 2x" alt="барабаны">
+            </picture>
+          </a>
+        </div>
+        <div class="catalog-item__dscr">
+          <div class="catalog-item__author">
+            <a href="#" class="catalog-item__author-name">Антон <span class="catalog-item__time">(12 часов назад)</span></a>
+          </div>
+          <p class="catalog-item__text">Соседи будут рады!</p>
+          <div class="catalog-item__footer">
+            <a href="#">
+              <img src="img/like.png" alt="heart" class="catalog-item__icon-like">
+            </a>
+            <a href="#" class="catalog-item__like">Нравится: 667</a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-item">
+        <div class="catalog-item__img-wrapper">
+          <a href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-3-desktop.jpg 1x, img/photo-3-desktop@2x.jpg 2x">
+              <source media="(min-width: 700px)" srcset="img/photo-3-tablet.jpg 1x, img/photo-3-tablet@2x.jpg 2x">
+              <img class="catalog-item__img" src="img/photo-3-mobile@1x.jpg" srcset="img/photo-3-mobile@2x.jpg 2x" alt="окно">
+            </picture>
+          </a>
+        </div>
+        <div class="catalog-item__dscr">
+          <div class="catalog-item__author">
+            <a href="#" class="catalog-item__author-name">Борис <span class="catalog-item__time">(20 часов назад)</span></a>
+          </div>
+          <p class="catalog-item__text">Здесь могла быть ваша цитата о высоком и вечном.</p>
+          <div class="catalog-item__footer">
+            <a href="#">
+              <img src="img/like.png" alt="heart" class="catalog-item__icon-like">
+            </a>
+            <a href="#" class="catalog-item__like">Нравится: 215</a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-item">
+        <div class="catalog-item__img-wrapper">
+          <a href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-4-desktop.jpg 1x, img/photo-4-desktop@2x.jpg 2x">
+              <source media="(min-width: 700px)" srcset="img/photo-4-tablet.jpg 1x, img/photo-4-tablet@2x.jpg 2x">
+              <img class="catalog-item__img" src="img/photo-4-mobile@1x.jpg" srcset="img/photo-4-mobile@2x.jpg 2x" alt="бахча">
+            </picture>
+          </a>
+        </div>
+        <div class="catalog-item__dscr">
+          <div class="catalog-item__author">
+            <a href="#" class="catalog-item__author-name">Сергей <span class="catalog-item__time">(25 часов назад)</span></a>
+          </div>
+          <p class="catalog-item__text">Самая кубанская в мире!</p>
+          <div class="catalog-item__footer">
+            <a href="#">
+              <img src="img/like.png" alt="heart" class="catalog-item__icon-like">
+            </a>
+            <a href="#" class="catalog-item__like">Нравится: 4</a>
+          </div>
+        </div>
+      </div>
+      <div class="catalog-item">
+        <div class="catalog-item__img-wrapper">
+          <a href="#">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/photo-5-desktop.jpg 1x, img/photo-5-desktop@2x.jpg 2x">
+              <source media="(min-width: 700px)" srcset="img/photo-5-tablet.jpg 1x, img/photo-5-tablet@2x.jpg 2x">
+              <img class="catalog-item__img" src="img/photo-5-mobile@1x.jpg" srcset="img/photo-5-mobile@2x.jpg 2x" alt="горы">
+            </picture>
+          </a>
+        </div>
+        <div class="catalog-item__dscr">
+          <div class="catalog-item__author">
+            <a href="#" class="catalog-item__author-name">Максим <span class="catalog-item__time">(40 часов назад)</span></a>
+          </div>
+          <p class="catalog-item__text">Где снег-то?</p>
+          <div class="catalog-item__footer">
+            <a href="#">
+              <img src="img/like.png" alt="heart" class="catalog-item__icon-like">
+            </a>
+            <a href="#" class="catalog-item__like">Нравится: 150</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="catalog-item">
+      <div class="catalog-item__img-wrapper">
+        <a href="#">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/photo-6-desktop.jpg 1x, img/photo-6-desktop@2x.jpg 2x">
+            <source media="(min-width: 700px)" srcset="img/photo-6-tablet.jpg 1x, img/photo-6-tablet@2x.jpg 2x">
+            <img class="catalog-item__img" src="img/photo-6-mobile@1x.jpg" srcset="img/photo-6-mobile@2x.jpg 2x" alt="крыло">
+          </picture>
+        </a>
+      </div>
+      <div class="catalog-item__dscr">
+        <div class="catalog-item__author">
+          <a href="#" class="catalog-item__author-name">Надежда <span class="catalog-item__time">(45 часов назад)</span></a>
+        </div>
+        <p class="catalog-item__text">Всем GM и взаимные лайки!</p>
+        <div class="catalog-item__footer">
+          <a href="#">
+            <img src="img/like.png" alt="heart" class="catalog-item__icon-like">
+          </a>
+          <a href="#" class="catalog-item__like">Нравится: 2560</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="make-post">
+      <h3 class="make-post__title">Затмите их всех! <br>Выкладывайте все, что накопилось в телефоне!</h3>
+      <div class="make-post__body">
+        <div class="make-post__img-wrapper">
+          <picture>
+            <source media="(min-width: 1200px)" srcset="img/photo-7-desktop.jpg 1x, img/photo-7-desktop@2x.jpg 2x">
+            <source media="(min-width: 700px)" srcset="img/photo-7-tablet.jpg 1x, img/photo-7-tablet@2x.jpg 2x">
+            <img class="make-post__img" src="img/photo-7-mobile@1x.jpg" srcset="img/photo-7-mobile@2x.jpg 2x">
+          </picture>
+        </div>
+        <div class="make-post__tools">
+          <div class="make-post__tool make-post__tool--crop">
+            <img src="img/icon-editor-crop.svg" alt="" class="make-post__tool-icon">
+            <input type="range">
+          </div>
+          <div class="make-post__tool make-post__tool--fill">
+            <img src="img/icon-editor-fill.svg" alt="" class="make-post__tool-icon">
+            <input type="range">
+          </div>
+          <div class="make-post__tool make-post__tool--contrast">
+            <img src="img/icon-editor-contrast.svg" alt="" class="make-post__tool-icon">
+            <input type="range">
+          </div>
+        </div>
+        <div class="make-post__footer">
+          <input type="submit" value="Запостить">
+          <input type="submit" value="Отмена">
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script src="js/svgxuse.min.js"></script>
+</body>
+</html>
