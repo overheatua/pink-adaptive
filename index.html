@@ -6,9 +6,185 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Pink</title>
   <link href="css/style.min.css" rel="stylesheet">
+  <script src="js/picturefill.min.js"></script>
 </head>
 <body>
-  HELLO
+  <header class="header">
+    <nav class="main-nav main-nav--closed">
+      <ul class="main-nav__list">
+        <li class="main-nav__item main-nav__item--logo">
+          <a class="main-nav__link main-nav__link--logo" href="index.html">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+              <source media="(min-width: 700px)" srcset="img/logotype-white-tablet.svg">
+              <img class="logo__img" src="img/logo-pink-white-mobile.svg" alt="Pink">
+            </picture>
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <div class="main-nav__wrapper">
+            <a href="index.html" class="main-nav__link">Главная</a>
+          </div>
+        </li>
+        <li class="main-nav__item">
+          <div class="main-nav__wrapper">
+            <a href="photo.html" class="main-nav__link">Фотографии</a>
+          </div>
+        </li>
+        <li class="main-nav__item">
+          <div class="main-nav__wrapper">
+            <a href="form.html" class="main-nav__link">Конкурс</a>
+          </div>
+        </li>
+        <li class="main-nav__item">
+          <div class="main-nav__wrapper">
+            <a href="#" class="main-nav__link">HMTL Academy</a>
+          </div>
+        </li>
+      </ul>
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
+    </nav>
+    <div class="logo">
+      <a class="logo__link" href="index.html">
+        <picture>
+          <source media="(min-width: 1200px)" srcset="img/logotype-white-desktop.svg">
+          <source media="(min-width: 700px)" srcset="img/logotype-white-tablet.svg">
+          <img class="logo__img" src="img/logo-pink-white-mobile.svg" alt="Pink">
+        </picture>
+      </a>
+    </div>
+  </header>
+  <main class="main">
+    <div class="intro">
+      <div class="intro__main-img">
+        <img src="img/iphone-hand-mobile.png" alt="hand-mobile" class="intro__img">
+      </div>
+      <div class="intro__dscr">
+        <div class="intro__title">
+          <p class="intro__title-text">Взгляните на жизнь иначе!</p>
+        </div>
+        <button class="intro__btn">Скачать приложение</button>
+        <div class="intro__icons">
+          <img src="img/logo-apple.svg" alt="Apple" class="intro__icon">
+          <img src="img/logo-android.svg" alt="Android" class="intro__icon">
+          <img src="img/logo-microsoft.svg" alt="Microsoft" class="intro__icon">
+        </div>
+        <div class="intro__text">
+          <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Window 8.</p>
+        </div>
+      </div>
+    </div>
+    <div class="features">
+      <h1 class="features__title">Устали от серости мегаполиса? Нам есть, что вам предложить!</h1>
+      <div class="features__items">
+      <div class="features__item">
+        <h2 class="features__item-title">Поднимает настроение</h2>
+        <p class="features__item-text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+    </div>
+      <div class="features__item">
+        <h2 class="features__item-title">Меняет мир вокруг</h2>
+        <p class="features__item-text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+      </div>
+      <div class="features__item">
+        <h2 class="features__item-title">Заводит новых друзей</h2>
+        <p class="features__item-text">Ставьте лайки, комментируте, делитесь фотографиями с друзьями и заводите новых</p>
+      </div>
+      </div>
+      <img src="img/iphone-screen-mobile@1x.png" alt="" class="features__img-mobile">
+      <div class="features__images">
+        <img src="img/Iphone-screen1.png" alt="" class="features__img">
+        <img src="img/IphoneScreen2.png" alt="" class="features__img">
+        <img src="img/IphoneScreen3.png" alt="" class="features__img">
+      </div>
+    </div>
+    <div class="effect">
+      <img src="img/24.png" alt="24" class="effect__img">
+      <div class="effect__dscr">
+        <h2 class="effect__title">Эффект на 24 часа!</h2>
+        <p class="effect__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
+        <a href="" class="effect__link">Узнать больше об исследовании</a>
+      </div>
+    </div>
+    <div class="comments">
+      <div class="comments__headline">
+        <span class="comments__autor">Николай Петров</span>
+        <span class="comments__autor-dscr">25 лет, водитель трамвая</span>
+      </div>
+      <div class="comments__body">
+        <p class="comments__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      </div>
+      <div class="comments__nav"></div>
+    </div>
+    <div class="tariff">
+      <table class="tariff__table">
+        <tr>
+          <th></th>
+          <th>База 1,99 USD</th>
+          <th>Стандарт 3,99 USD</th>
+          <th>Анлим 9,99 USD</th>
+        </tr>
+        <tr>
+          <td>Розовый фильтр</td>
+          <td><img src="img/yes.png" alt="" class="tariff__icon"></td>
+          <td><img src="img/yes.png" alt="" class="tariff__icon"></td>
+          <td><img src="img/yes.png" alt="" class="tariff__icon"></td>
+        </tr>
+        <tr>
+          <td>Смайлики</td>
+          <td><img src="img/no.png" alt="" class="tariff__icon"></td>
+          <td><img src="img/yes.png" alt="" class="tariff__icon"></td>
+          <td><img src="img/yes.png" alt="" class="tariff__icon"></td>
+        </tr>
+        <tr>
+          <td>Комментарии</td>
+          <td><img src="img/no.png" alt="" class="tariff__icon"></td>
+          <td><img src="img/no.png" alt="" class="tariff__icon"></td>
+          <td><img src="img/yes.png" alt="" class="tariff__icon"></td>
+        </tr>
+      </table>
+    </div>
+    <div class="contacts">
+      <h1 class="contacts__title">Остались вопросы? Свяжитесь с нами!</h1>
+      <div class="contacts__item">
+        <h3 class="contacts__item-title">Звонните:</h3>
+        <span class="contacts__item-text">+7 (812) 555-66-66</span>
+      </div>
+      <div class="contacts__item">
+        <h3 class="contacts__item-title">Пишите:</h3>
+        <span class="contacts__item-text">mail@htmlacademy.ru</span>
+      </div>
+      <div class="contacts__item">
+        <h3 class="contacts__item-title">Приезжайте в гости:</h3>
+        <span class="contacts__item-text">ул. Большая Конюшенная, 19/8</span>
+      </div>
+    </div>
+    <div class="map"></div>
+  </main>
+  <footer class="footer">
+    <div class="footer-logo">
+      <a href="index.html">
+        <img src="img/logo-pink-blue-mobile.svg" alt="" class="footet-logo__img">
+      </a>
+    </div>
+    <div class="socials">
+      <a class="socials__link" href="#">Мы в Instagram
+
+      </a>
+      <a class="socials__link" href="#">Мы в Фейсбуке
+
+      </a>
+      <a class="socials__link" href="#">Мы в Твитере
+
+      </a>
+    </div>
+    <div class="copyright">
+      <a class="copyright__text" href="https://htmlacademy.ru/">Разработано:</a>
+      <a href="https://htmlacademy.ru/">
+        <img src="img/htmlacademy.png" alt="" class="copyright__img">
+      </a>
+    </div>
+  </footer>
   <script type="text/javascript" src="js/script.js"></script>
+  <script src="js/svgxuse.min.js"></script>
 </body>
 </html>
