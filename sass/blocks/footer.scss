@@ -11,13 +11,13 @@
     justify-content: space-between;
     padding: 0 40px;
     background-color: $footer-bg;
-    min-height: 127px;
+    height: 127px;
   }
 }
 
 @media #{$desktop} {
   .footer {
-    min-height: 197px;
+    height: 197px;    
     padding: 0 130px;
   }
 }
