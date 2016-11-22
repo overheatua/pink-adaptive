@@ -1,0 +1,23 @@
+.footer {
+  display: none;
+}
+
+@media #{$tablet} {
+  .footer {
+    @include container;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    background-color: $footer-bg;
+    height: 127px;
+  }
+}
+
+@media #{$desktop} {
+  .footer {
+    height: 197px;    
+    padding: 0 130px;
+  }
+}

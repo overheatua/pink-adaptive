@@ -1,0 +1,29 @@
+.footet-logo__img {
+  fill: #283645;
+  width: 147px;
+  height: 40px;
+
+  &:hover {
+    fill: #d22856;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.footer-logo__text {
+  fill: #d22856;
+}
+.footet-logo__img--desktop {
+  display: none;
+}
+
+@media #{$desktop} {
+  .footet-logo__img--tablet {
+    display: none;
+  }
+  .footet-logo__img--desktop {
+    display: inline;
+  }
+}

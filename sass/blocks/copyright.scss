@@ -1,0 +1,25 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright__text {
+  margin-right: 15px;
+  font-size: 18px;
+  color: #283645;
+}
+
+.copyright__logo {
+  fill: #d22856;
+  width: 27px;
+  height: 34px;
+
+  &:hover {
+    fill: #283645;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
