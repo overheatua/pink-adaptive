@@ -24,3 +24,22 @@
     opacity: 0.1;
   }
 }
+
+.socials__icon {
+  fill: #d22856;
+
+  &--tw {
+    width: 18px;
+    height: 14px;
+  }
+
+  &--fb {
+    width: 9px;
+    height: 18px;
+  }
+
+  &--youtube {
+    width: 15px;
+    height: 13px;
+  }
+}

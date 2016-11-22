@@ -1,0 +1,13 @@
+.footet-logo__img {
+  fill: #d22856;
+  width: 147px;
+  height: 40px;
+
+  &:hover {
+    fill: #283645;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
